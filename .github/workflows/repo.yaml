@@ -7,7 +7,8 @@ on:
   
 jobs:
 
-  runs-on: microsoft windows
-  steps: 
-  name: run my java code
-  - uses: actions/hello@v1
+ run_my_java_code:
+    
+    runs-on: windows-latest
+    steps: 
+    -  uses: actions/hello@v1
