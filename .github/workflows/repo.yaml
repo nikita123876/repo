@@ -1,0 +1,13 @@
+name: action workflow
+
+on:
+  workflow_dispatch:
+  
+  push:
+  
+jobs:
+
+  runs-on: microsoft windows
+  steps: 
+  name: run my java code
+  - uses: actions/hello@v1
