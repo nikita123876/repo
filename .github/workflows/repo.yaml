@@ -12,4 +12,4 @@ jobs:
      
      runs-on: ubuntu-latest
      steps:
-     - uses: actions/hello@v1
+     - uses: actions/hello@v
