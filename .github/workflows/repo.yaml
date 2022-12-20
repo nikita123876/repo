@@ -1,14 +1,15 @@
-name: action workflow
+name: "My workflow"
 
 on:
+  
   workflow_dispatch:
   
   push:
   
 jobs:
-
- run_my_java_code:
-    
-    runs-on: ubuntu-latest
-    steps: 
-    -  uses: actions/hello@v1
+ 
+   build:
+     
+     runs-on: ubuntu-latest
+     steps:
+     - uses: actions/hello@v1
