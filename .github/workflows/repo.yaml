@@ -9,6 +9,6 @@ jobs:
 
  run_my_java_code:
     
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps: 
     -  uses: actions/hello@v1
